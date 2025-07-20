@@ -3,6 +3,7 @@ import ReactForm from "./Components/ReactForm";
 import ReactAPICall from "./Components/ReactAPICall";
 import TextSwap from "./Components/TextSwap";
 import UseReducerHook from "./ReactHooks/UseReducerHook";
+import UseContextRoot from "./ReactHooks/ReactContext/UseContextRoot";
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
       {/* <ReactForm /> */}
       {/* <ReactAPICall /> */}
       {/* <TextSwap /> */}
-      <UseReducerHook />
+      {/* <UseReducerHook /> */}
+      <UseContextRoot />
     </div>
   );
 }
